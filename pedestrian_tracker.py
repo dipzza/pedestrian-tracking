@@ -6,9 +6,9 @@ import cv2
 
 # Parse command line arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--input", type=str, default="data/test.mp4",
+parser.add_argument("-i", "--input", type=str, default="",
 	help="path to (optional) input video file")
-parser.add_argument("-o", "--output", type=str, default="data/output.avi",
+parser.add_argument("-o", "--output", type=str, default="",
 	help="path to (optional) output video file. Write only the name, without extension.")
 parser.add_argument("-c", "--confidence", type=float, default=0.35,
 	help="minimum probability for detections")
