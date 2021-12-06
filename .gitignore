@@ -1,6 +1,9 @@
-# Video files
+# Video and image files
 *.mp4
 *.avi
+*.jpeg
+*.jpg
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
