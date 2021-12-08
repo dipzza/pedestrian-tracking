@@ -3,6 +3,7 @@
 
 import argparse
 import cv2
+from sys import exit
 
 # Parse command line arguments
 parser = argparse.ArgumentParser()
