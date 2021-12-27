@@ -8,10 +8,12 @@ authors = ["dipzza <dipzza@disroot.org>"]
 python = ">=3.9,<3.11"
 numpy = "^1.21.4"
 opencv-python = "^4.5.4"
+matplotlib = "^3.5.1"
+filterpy = "^1.4.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-spyder-kernels = "^2.2.0"
+spyder-kernels = ">=2.1.0, <2.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
